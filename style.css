@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui
+}
+html {
+    max-width: 120rem;
+    width: 100%;
+    overflow-x: hidden !important;
+    font-size: .9vw;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden !important;
+    background-color: rgb(228, 198, 160);
+}
+#counterBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#counter{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+h1{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+button{
+    margin-right: 1.3rem;
+    padding: 0.8rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media(max-width:708px){
+    h1{
+        font-size: 5.5rem;
+    } 
+    button{
+        margin-right: 2.3rem;
+        padding: 1.2rem;
+        font-size: 2rem;
+    }
+    #counter{
+        font-size: 4.8rem;
+}
+}
+@media(max-width:490px){
+    h1{
+        font-size: 7.5rem;
+        padding-bottom: 6rem;
+    } 
+    button{
+        font-size: 5rem;
+        margin-top: 4rem;
+        padding: 2rem;
+    }
+    #counter{
+        font-size: 8.8rem;
+        padding-bottom: 6rem;
+}
+} 
